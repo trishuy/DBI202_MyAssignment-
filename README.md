@@ -57,21 +57,25 @@ You must submit a brief final report which must include the following:
 - Pe 
 - Fe
 ```  
-### Part (mô tả các phần một) :
-### Weight : từng mục điểm trên từng hạng mục
-### Completion Criteria : Điều kiện để thi và điểm tối thiểu để pass 
-### Duration: Khoảng thời gian làm việc trong từng hạng mục 
-###   Question Type( Loại câu hỏi )
-###   No Question( Số câu hỏi )
-###   Knowledge and Skill
-###   Grading Guide
-###   Note
-** -Tính toán, tìm các:
-** -Fields, Object
-** -chia các object
-### Chia các quan hệ 1-n, n-n, các mối quan hệ giữa object
-### vẽ bảng erd tổng quát theo form trên sql, lucid chart, vv
-### add vào sql server chuyển sang table_database
-### chuẩn hóa, quy trình dữ liệu cho các fields
-### add data vào 
-### check, test database và query
+### Part:
+> Số lần thực hiện.
+### Weight 
+> từng mục điểm trên từng hạng mục
+### Completion Criteria 
+> Điều kiện để thi và điểm tối thiểu để pass 
+### Duration
+> Khoảng thời gian làm việc trong từng hạng mục 
+###   Question Type( Loại câu hỏi ) : Hình thức thực hiện 
+> Multiple choices
+> Presentation
+###   No Question: Số lượng câu hỏi 
+###   Knowledge and Skill :
+> Các kiến thức và kĩ năng yêu cầu
+###   Grading Guide : Được chấm điểm, đánh giá bởi ai
+```
+- instructor
+- computer
+- exam part
+```
+###   Note(chú thích)
+
