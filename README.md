@@ -1,8 +1,23 @@
 # Phân tích những database theo dữ liệu của đề bài 
 ### Thông tin :
-> 1>Detailed Specification
-> 2> The database must consist of at least six tables
-> Final Report
+### 1>Detailed Specification :
+> This is an individual assignment. 
+> You are asked to provide a conceptual database design for Attendance Taking & Student Grade Management System at FPT University (I know, FPT already got one, but let assume we are reconstructing it).
+> You can base on existing sources to develop your design including: fap.fpt.edu.vn, flm.fpt.edu.vn, ...
+### 2> The database must consist of at least six tables :
+>The database must consist of at least six tables that have been populated with data. The database is to support queries that would typically be submitted to the system for the topical area that you have chosen. You must do the following:
+ >Self-investigation for the requirement of the system. Listed them all as form of reports, business rules.
+-	Using UML, Chen’s notation to create an Entity Relationship (ER) model for your relational database. All entity types, their attributes and relationships must be clearly shown. You will also be required to show all cardinality and participation constraints. You should use some enhanced ER features in your conceptual model where it makes sense to do so.
+-	Map the EER model devised in part (1) into a relational data model. It must be normalised up to at least 3rd Normal Form.
+-	Using appropriate SQL commands create a set of database tables in MS SQL Server 2008+. You should also show all constraints used in the creation of the tables.
+-	Populate the database with a small amount of data. The data should be meaningful but does not need to be extensive. The following sites may be useful for quickly generating data:
+	http://www.databasetestdata.com/
+	http://www.generatedata.com/
+-	Your database must contain one view, one trigger, on store procedure and an index (describe why).
+-	Create 10 sample queries that demonstrate the expressiveness of your database system. Your queries must demonstrate different aspects of the system.
+
+### Final Report
+```
 You must submit a brief final report which must include the following:
 -   A brief description of the database including any assumptions made during the design (THIS IS VERY IMPORTANT TO CLERIFY THE ASSUMTIONS in form of business rules).
 -   An ERD (Entity Relationship Diagram) that fully describes the database (giving descriptions on your work would be appreciated).
@@ -19,7 +34,7 @@ You must submit a brief final report which must include the following:
 -   A query that uses partial matching in the WHERE clause
 -   A query that uses a self-JOIN
 -   The trigger, store procedure, and the index should be added (explain why you make it)
-
+```
 ### Xác Định Và Tổng Hợp Các Dữ Liệu
 ### Bảng Thông Tin Các Điểm Thành Phần
 ###   ![image](https://user-images.githubusercontent.com/76523661/174473470-0efadd32-427b-475b-93a6-52d2a7179314.png) 
