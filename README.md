@@ -1,5 +1,5 @@
 # Phân tích những database theo dữ liệu của đề bài 
-### Thông tin :
+## Thông tin :
 ### 1>Detailed Specification :
 > This is an individual assignment. 
 > You are asked to provide a conceptual database design for Attendance Taking & Student Grade Management System at FPT University (I know, FPT already got one, but let assume we are reconstructing it).
@@ -35,13 +35,13 @@ You must submit a brief final report which must include the following:
 -   A query that uses a self-JOIN
 -   The trigger, store procedure, and the index should be added (explain why you make it)
 ```
-### 1,Xác Định Và Tổng Hợp Các Dữ Liệu
+### 1.Xác Định Và Tổng Hợp Các Dữ Liệu
 ### Bảng Thông Tin Các Điểm Thành Phần
 ###   ![image](https://user-images.githubusercontent.com/76523661/174473470-0efadd32-427b-475b-93a6-52d2a7179314.png) 
 
 ** Bố cục **
 **  Các quan hệ mật thiết từng bảng: **
-### Category (hạng mục) : Danh sách các đầu điểm vào trên hệ thống fap
+### 1,1.Category (hạng mục) : Danh sách các đầu điểm vào trên hệ thống fap
 ```
   - Progress Tests 
   - Assignment  
@@ -49,7 +49,7 @@ You must submit a brief final report which must include the following:
   - Pe 
   - FE
 ```
-### Type (Loại) :
+### 1,2.Type (Loại) :
 ``` 
 - Quiz 
 - Lab 
@@ -57,21 +57,21 @@ You must submit a brief final report which must include the following:
 - Pe 
 - Fe
 ```  
-### Part:
+### 1,3.Part:
 > Số lần thực hiện.
-### Weight 
+### 1,4.Weight 
 > từng mục điểm trên từng hạng mục
-### Completion Criteria 
+### 1,5.Completion Criteria 
 > Điều kiện để thi và điểm tối thiểu để pass 
-### Duration
+### 1,6.Duration
 > Khoảng thời gian làm việc trong từng hạng mục 
-###   Question Type( Loại câu hỏi ) : Hình thức thực hiện 
+### 1,7.Question Type( Loại câu hỏi ) : Hình thức thực hiện 
 > Multiple choices
 > Presentation
-###   No Question: Số lượng câu hỏi 
-###   Knowledge and Skill :
+###   1,8.No Question: Số lượng câu hỏi 
+###   1,9.Knowledge and Skill :
 > Các kiến thức và kĩ năng yêu cầu
-###   Grading Guide : Được chấm điểm, đánh giá bởi ai
+###   1,10.Grading Guide : Được chấm điểm, đánh giá bởi ai
 ```
 - instructor
 - computer
@@ -79,28 +79,52 @@ You must submit a brief final report which must include the following:
 ```
 ###   Note(chú thích)
 
-### 2,Bảng điểm tổng quát của học sinh
+### 2.Bảng điểm tổng quát của học sinh
 ### ![image](https://user-images.githubusercontent.com/76523661/174435441-24021f17-609a-4c3d-ac96-fc9184d21479.png)
-### NO: Number of subjects.
+### 2,1.NO: Number of subjects.
 > Số lượng khóa học , môn học
-### Subject code – Subject Name: .
+### 2,2.Subject code – Subject Name: .
 > Mã Code Tương Ứng Trên Từng Khóa Học
-### Semester : Khóa học diễn ra và kỳ học
+### 2,3.Semester : Khóa học diễn ra và kỳ học
 ```
 - Thời gian
 - Kỳ học
 ```
-### Group :
+### 2,4.Group :
 > Lớp học
-### StartDate :
+### 2,5.StartDate :
 > Thời gian bắt đầu khóa học
-### EndDate :
+### 2,6.EndDate :
 > Thời gian kết thúc khóa học
-### Average Mark:
+### 2,7.Average Mark:
 > Điểm trung bình
-### Status (Trạng thái của kỳ học vừa rồi ): 
+### 2,8.Status (Trạng thái của kỳ học vừa rồi ): 
 ```
 - Pass
 - Not pass
 ```
-
+### 3.Bảng điểm chi tiết 1 khoá học
+### ![image](https://user-images.githubusercontent.com/76523661/174435461-09a9d235-f99f-4169-8c2a-cebee1f6d4e7.png)
+** Bố cục **
+### 3,1.Grade Category : Các loại hạng mục của từng đầu điểm :
+```
+- Progress Tests (Quiz[Quiz 1, Quiz 2 ,...])
+- Assignment
+- Labs
+- PE ( Practice Exam )
+- FE ( Final Exam )
+- Final Exam Resit
+```
+### 3,2.Grade Item : Các thành phần hạng mục( Tên và đầu điểm ) 
+ ``` 
+ - Item
+ - Total
+ ```
+### 3,3.Weight :
+> Trọng số từng hạng mục 
+### 3,4.Value :
+> Điểm 
+### 3,4.Comment :
+> Chú thích của người quản lý điểm
+### 3,5.Course total:
+> Điểm tổng kết 
