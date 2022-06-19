@@ -35,12 +35,12 @@ You must submit a brief final report which must include the following:
 -   A query that uses a self-JOIN
 -   The trigger, store procedure, and the index should be added (explain why you make it)
 ```
-### Xác Định Và Tổng Hợp Các Dữ Liệu
+### 1,Xác Định Và Tổng Hợp Các Dữ Liệu
 ### Bảng Thông Tin Các Điểm Thành Phần
 ###   ![image](https://user-images.githubusercontent.com/76523661/174473470-0efadd32-427b-475b-93a6-52d2a7179314.png) 
 
-**Bố cục
-**Các quan hệ từng bảng:
+** Bố cục **
+** Các quan hệ mật thiết từng bảng: **
 ### Category (hạng mục) : Danh sách các đầu điểm vào trên hệ thống fap
 ```
   - Progress Tests 
@@ -79,3 +79,28 @@ You must submit a brief final report which must include the following:
 ```
 ###   Note(chú thích)
 
+### 2,Bảng điểm tổng quát của học sinh
+### ![image](https://user-images.githubusercontent.com/76523661/174435441-24021f17-609a-4c3d-ac96-fc9184d21479.png)
+### NO: Number of subjects.
+> Số lượng khóa học , môn học
+### Subject code – Subject Name: .
+> Mã Code Tương Ứng Trên Từng Khóa Học
+### Semester : Khóa học diễn ra và kỳ học
+```
+- Thời gian
+- Kỳ học
+```
+### Group :
+> Lớp học
+### StartDate :
+> Thời gian bắt đầu khóa học
+### EndDate :
+> Thời gian kết thúc khóa học
+### Average Mark:
+> Điểm trung bình
+### Status (Trạng thái của kỳ học vừa rồi ): 
+```
+- Pass
+- Not pass
+```
+  
