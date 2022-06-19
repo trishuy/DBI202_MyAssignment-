@@ -1,11 +1,18 @@
 # Phân tích data base 
 ** Thông tin
-# Xác Định Và Tổng Hợp Các Dữ Liệu
-## Bảng Thông Tin Các Điểm Thành Phần
-###   ![image](https://user-images.githubusercontent.com/76523661/+174435404-9625a8e9-0cb4-4422-bf44-80bf17562179.png) 
+### Xác Định Và Tổng Hợp Các Dữ Liệu
+### Bảng Thông Tin Các Điểm Thành Phần
+###   ![image](https://user-images.githubusercontent.com/76523661/174473470-0efadd32-427b-475b-93a6-52d2a7179314.png) 
 **Bố cục
 **Các quan hệ từng bảng:
-### Category (hạng mục) : Progress Tests , Assignment , Labs , Pe , FE 
+### Category (hạng mục) :
+```
+  Progress Tests 
+  Assignment  
+  Labs 
+  Pe 
+  FE
+```
 ### Type (Loại) : Quiz , Lab, On-going, Pe, Fe...  
 ### Part (mô tả các phần một) :
 ### Weight : từng mục điểm trên từng hạng mục
@@ -16,7 +23,7 @@
 ###   Knowledge and Skill
 ###   Grading Guide
 ###   Note
-+** -Tính toán, tìm các:
+** -Tính toán, tìm các:
 ** -Fields, Object
 ** -chia các object
 ### Chia các quan hệ 1-n, n-n, các mối quan hệ giữa object
