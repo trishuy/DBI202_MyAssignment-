@@ -251,3 +251,7 @@ You must submit a brief final report which must include the following:
 - Một Assigment có thể có được từ nhiều Lecturers và 1 Lecturers chỉ có thể đưa ra đúng 1 Assignment.
 -> Quan hệ một nhiều ( 1-n ).
 ```
+
+------------------------------------------------------
+# 6. ERD Diagram
+## ![image](https://github.com/trishuy/DBI202_MyAssignment-/blob/main/DBI202_MyAssignment-.png?raw=true)
