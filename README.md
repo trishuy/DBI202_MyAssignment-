@@ -141,8 +141,8 @@ You must submit a brief final report which must include the following:
 ### 3,5.Course total:
 > Điểm tổng kết 
 --------------------------------------------------------------------------------------------------------------------------------------
-# Xác Định Và Tổng Hợp Các Dữ Liệu Của Các Thuộc Tính Trong Dữ Liệu
-##    Xác Định Các Thực Thể 
+# 4.Xác Định Và Tổng Hợp Các Dữ Liệu Của Các Thuộc Tính Trong Dữ Liệu
+##    4,1. Xác Định Các Thực Thể 
 ###         Thực Thể 1: Students
                - StudentID
                - First Name 
@@ -195,4 +195,45 @@ You must submit a brief final report which must include the following:
 ###         Thực thể 9: Assignment
                - AssigmentID
                - AssigmentName
-
+# 5. Phân Chia Các Entities Và Relationships
+### 5,1. Entity Student <-> Entity Group
+```
+- Một hoặc nhiều học sinh sinh viên có thể đăng ký nhiều khóa học (Courses)
+-> Quan hệ nhiều nhiều (n-n).
+```
+### 5,2. Entity Class <-> Entity Lecturers
+```
+- Một Class được phụ trách bởi 1 Lecturer (không hơn không kém) và 1 Lecturer có thẻ phụ trách nhiều lớp khác nhau cùng nhiều môn học khác nhau
+-> Quan hệ một nhiều (1-n).
+```
+##  5,3. Entity Class <-> Entity Groups
+```
+- Một Class có thể được đăng kí bởi nhiều Groups và 1 Group có thể đăng kí nhiều Classes.
+-> Quan hệ nhiều nhiều ( n-n ).
+```
+##  5,4. Entity Student <-> Entity Assessment System
+```
+- Một Student có thể có nhiều hệ thống đánh giá các đầu điểm và 1 Assessment System có thể phụ trách đầu điểm của nhiều Students.
+-> Quan hệ nhiều nhiều ( n-n ).
+```
+##  Entity Class <-> Entity Assessment System
+    -Một Class có thể có nhiều hệ thống đánh giá các đầu điểm và 1 Assessment System có thể phụ trách đầu điểm của nhiều Classes.
+    -> Xác Định Quan Hệ Giữa Entity Class Và Entity Assessment System là quan hệ nhiều nhiều ( n-n )
+##  Entity Class <-> Entity Students
+    Mô Tả:  Một Class có thể có nhiều đầu điểm của Students và 1 Students có thể xem được đầu điểm của nhiều Classes.
+    -> Xác Định Quan Hệ Giữa Entity Class Và Entity Students là quan hệ nhiều nhiều ( n-n )
+##  Entity Courses <-> Entity Assessment System
+    Mô Tả:  Một Course chỉ có thể có duy nhất 1 hệ thống đánh giá các đầu điểm  và 1 Assessment System có thể là hệ thống đánh giá của  nhiều Courses.
+    -> Xác Định Quan Hệ Giữa Entity Assessment System Và Entity Courses là quan hệ một nhiều ( 1-n )
+##  Entity Class <-> Entity Assignment
+    Mô Tả:  Một Class chỉ nhận đúng 1 Assignment  và 1 Assignment có thể được giao cho nhiều Classes.
+    -> Xác Định Quan Hệ Giữa Entity Class Và Entity Assignment là quan hệ một nhiều ( 1-n )
+##  Entity Courses <-> Entity Assignment
+    Mô Tả:  Một Courses chỉ có thể có đúng 1 Assigment và 1 Assigment có thể được lấy từ nhiều Courses.
+    -> Xác Định Quan Hệ Giữa Entity Courses Và Entity Assigment là quan hệ một nhiều ( 1-n )
+##  Entity Category <-> Entity Assignment Systems
+    Mô Tả:  Một Category có thể tổng hợp từ nhiều Assignment Systems và 1 Assignment Systems chỉ có thể đưa vào 1 Category duy nhất.
+    -> Xác Định Quan Hệ Giữa Entity Category Và Entity Assignment Systems là quan hệ một nhiều ( 1-n )
+##  Entity Lecturers <-> Entity Assignment
+    Mô Tả:  Một Assigment có thể có được từ nhiều Lecturers và 1 Lecturers chỉ có thể đưa ra đúng 1 Assignment.
+    -> Xác Định Quan Hệ Giữa Entity Assigment Và Entity Lecturers là quan hệ một nhiều ( 1-n )
