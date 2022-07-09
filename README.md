@@ -140,33 +140,59 @@ You must submit a brief final report which must include the following:
 > Chú thích của người quản lý điểm
 ### 3,5.Course total:
 > Điểm tổng kết 
-=======
-# Phân tích data base 
-** Thông tin
+--------------------------------------------------------------------------------------------------------------------------------------
 # Xác Định Và Tổng Hợp Các Dữ Liệu Của Các Thuộc Tính Trong Dữ Liệu
-
-## Bảng Thông Tin Các Điểm Thành Phần
-###   ![image](https://user-images.githubusercontent.com/76523661/+174435404-9625a8e9-0cb4-4422-bf44-80bf17562179.png) 
-**Bố cục
-**Các quan hệ từng bảng:
-### Category (hạng mục) : Progress Tests , Assignment , Labs , Pe , FE 
-### Type (Loại) : Quiz , Lab, On-going, Pe, Fe...  
-### Part (mô tả các phần một) :
-### Weight : từng mục điểm trên từng hạng mục
-### Completion Criteria : Điều kiện để thi và điểm tối thiểu để pass 
-### Duration: Khoảng thời gian làm việc trong từng hạng mục 
-###   Question Type( Loại câu hỏi )
-###   No Question( Số câu hỏi )
-###   Knowledge and Skill
-###   Grading Guide
-###   Note
-+** -Tính toán, tìm các:
-** -Fields, Object
-** -chia các object
-### Chia các quan hệ 1-n, n-n, các mối quan hệ giữa object
-### vẽ bảng erd tổng quát theo form trên sql, lucid chart, vv
-### add vào sql server chuyển sang table_database
-### chuẩn hóa, quy trình dữ liệu cho các fields
-### add data vào 
-### check, test database và query
+##    Xác Định Các Thực Thể 
+###         Thực Thể 1: Students
+               - StudentID
+               - First Name 
+               - Last Name
+               - Address
+               - Gender
+               - Date Of Birth
+               - Email
+###         Thực Thể 2: Group Students
+               - GroupID
+               - Major
+###         Thực Thể 3: Courses
+               - CourseID
+               - CourseName
+               - Course_Status ( Online, Offline)
+###         Thực Thể 4: Lecturers
+               - LectureID
+               - First Name
+               - Last Name
+               - Gender
+               - Phone
+               - Date Of Birth
+               - ReportTO
+###         Thực Thể 5: Guide
+               - GuideID
+               - Details
+###         Thực Thể 6: Class
+               - ClassID
+               - Status
+               - Semester
+               - Start Date
+               - End Date
+###         Thực Thể 7: Category
+               - CatID
+               - Category
+               - Type
+               - Part
+               - Weight
+               - Duration
+               - Quest Type
+               - Number Of Questions
+               - Skill
+               - Grading Guide
+               - Note
+###         Thực Thể 8: Assessment system
+               - AssessmentID
+               - CourseID
+               - AssigmentID
+               - Weight
+###         Thực thể 9: Assignment
+               - AssigmentID
+               - AssigmentName
 
