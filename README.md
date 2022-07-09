@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Phân tích những database theo dữ liệu của đề bài 
 ## Thông tin :
 ### 1>Detailed Specification :
@@ -59,47 +59,58 @@ You must submit a brief final report which must include the following:
 - Fe
 ```  
 ### 1,3.Part:
-> Số lần thực hiện.
+> Số lần thực hiện các đầu điểm trên từng hạng mục.
 ### 1,4.Weight 
 > từng mục điểm trên từng hạng mục
 ### 1,5.Completion Criteria 
 > Điều kiện để thi và điểm tối thiểu để pass 
 ### 1,6.Duration
 > Khoảng thời gian làm việc trong từng hạng mục 
+```
+        - At home 
+        - In lab session
+```
 ### 1,7.Question Type( Loại câu hỏi ) : Hình thức thực hiện 
 > Multiple choices
-> Presentation
+> Presentation(Design And Present)
+> Practices
+> Scripts
 ###   1,8.No Question: Số lượng câu hỏi 
+> Số lượng câu hỏi trong bài kiểm tra từng đầu điểm 
 ###   1,9.Knowledge and Skill :
-> Các kiến thức và kĩ năng yêu cầu
+> Các kiến thức và kĩ năng yêu cầu bắt buộc phải đạt được tối thiểu :
+```
+- Đầu Điểm Theo Từng Phân Mức Chương Trình Học
+- Kĩ Năng Thực Hành
+- Kĩ năng Trau Dồi Kiến Thức 
+```
 ###   1,10.Grading Guide : Được chấm điểm, đánh giá bởi ai
-```
-- instructor
-- computer
-- exam part
-```
+> Người Chịu Trách Nghiệm Hướng Dẫn Và Quy Định Cách Thực Hiện Trình Bày Để Đạt Được Các Tiêu Chí Trên Các Hạng Mục
 ###   Note(chú thích)
-
-### 2.Bảng điểm tổng quát của học sinh
+> Tiêu chí Cho Điểm Trên Từng Hạng Mục
+### 2.Bảng điểm Và Khóa Học Tổng Quát Của Học Sinh
 ### ![image](https://user-images.githubusercontent.com/76523661/174435441-24021f17-609a-4c3d-ac96-fc9184d21479.png)
 ### 2,1.NO: Number of subjects.
 > Số lượng khóa học , môn học
-### 2,2.Subject code – Subject Name: .
+### 2,2.Subject code : .
 > Mã Code Tương Ứng Trên Từng Khóa Học
-### 2,3.Semester : Khóa học diễn ra và kỳ học
+### 2,3.Subject Name : .
+> Định Nghĩa và Khái Quát Chung Của Từng Môn Học Mà Sinh Viêc Sẽ Được Học
+### 2,4.Semester : .
+> Khoảng Thời Gian Diễn Ra Thời Gian Và Kỳ Học
 ```
 - Thời gian
 - Kỳ học
 ```
-### 2,4.Group :
+### 2,5.Group :
 > Lớp học
-### 2,5.StartDate :
+### 2,6.StartDate :
 > Thời gian bắt đầu khóa học
-### 2,6.EndDate :
+### 2,7.EndDate :
 > Thời gian kết thúc khóa học
-### 2,7.Average Mark:
+### 2,8.Average Mark:
 > Điểm trung bình
-### 2,8.Status (Trạng thái của kỳ học vừa rồi ): 
+### 2,9.Status (Trạng thái của kỳ học vừa rồi ): 
 ```
 - Pass
 - Not pass
@@ -132,7 +143,8 @@ You must submit a brief final report which must include the following:
 =======
 # Phân tích data base 
 ** Thông tin
-# Xác Định Và Tổng Hợp Các Dữ Liệu
+# Xác Định Và Tổng Hợp Các Dữ Liệu Của Các Thuộc Tính Trong Dữ Liệu
+
 ## Bảng Thông Tin Các Điểm Thành Phần
 ###   ![image](https://user-images.githubusercontent.com/76523661/+174435404-9625a8e9-0cb4-4422-bf44-80bf17562179.png) 
 **Bố cục
@@ -157,4 +169,4 @@ You must submit a brief final report which must include the following:
 ### chuẩn hóa, quy trình dữ liệu cho các fields
 ### add data vào 
 ### check, test database và query
->>>>>>> parent of 9880da2 (CHANGE README.MD)
+
