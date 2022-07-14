@@ -254,7 +254,7 @@ You must submit a brief final report which must include the following:
 
 ------------------------------------------------------
 # 6. ERD Diagram
-## ![image](https://github.com/trishuy/DBI202_MyAssignment-/blob/main/Entity%20Relationship%20Diagram%20(ERD).png?raw=true
+## ![image](https://github.com/trishuy/DBI202_MyAssignment-/blob/main/Entity%20Relationship%20Diagram%20(ERD).png?raw=true)
 ## 7. Chuẩn Hóa Thuộc Tính Các Attribute Trên Từng Bảng 
 
 1.  TABLE STUDENTS
