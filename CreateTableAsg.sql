@@ -1,6 +1,6 @@
 
-Create database Assignment
-use Assignment
+Create database DataAssignment
+use DataAssignment
 create table Students(
   StudentID  Varchar(50) Not Null Primary Key,
   Last_Name    NVarchar(50 ) Not Null ,
@@ -82,7 +82,7 @@ GrID varchar(50) not null foreign key references Groups(GrID),
 ClassID varchar(50) not null foreign key references Classes(ClassID),
 Constraint PK_Enroll_ primary key(GrID,ClassID)
 )
-Create table View_Students_Classes(
+Create table ViewStudentsClasses(
 StudentID varchar(50) not null,
 ClassID varchar(50) not null,
 Average Float(15) not null,
@@ -91,7 +91,7 @@ constraint PK_View_Students_Classes Primary Key(StudentID,ClassID),
 constraint FK_View_Students foreign key (StudentID) references Students(StudentID),
 constraint FK_View_Classes foreign key (ClassID) references Classes(ClassID)
 )
-create table JOIN_Groups_Students (
+create table JOINGroupsStudents (
   GrID  Varchar(50) Not Null,
   StudentID    Varchar(50 ) Not Null,
   constraint PK_JOIN primary key (GrID,StudentID),
