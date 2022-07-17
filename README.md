@@ -546,3 +546,4 @@ You must submit a brief final report which must include the following:
 ## 8,1. Creat Table And Attributes
 ### 8,2. Code sql
 ### 8,3. Image + Results
+![image](https://github.com/trishuy/DBI202_MyAssignment-/blob/main/ERD%20update.PNG?raw=true)
