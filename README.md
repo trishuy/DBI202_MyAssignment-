@@ -542,3 +542,7 @@ You must submit a brief final report which must include the following:
 |    ClassID     |    Varchar  | 50 | Not Null | Primary Key
 
 --------------------------------------------------------------------------
+# 8. Thiết lập DataBase Trên Sql server
+## 8,1. Creat Table And Attributes
+### 8,2. Code sql
+### 8,3. Image + Results
