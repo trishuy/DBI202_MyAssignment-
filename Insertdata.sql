@@ -105,60 +105,60 @@ INSERT Groups(GrID, Major) VALUES ('SE1609', 'Software Engineering');
 
 SELECT * FROM Groups
 
-INSERT [Join](StudentID, GrID) VALUES ('HE00001', 'IA1604');
-INSERT [Join](StudentID, GrID) VALUES ('HE00002', 'IA1604');
-INSERT [Join](StudentID, GrID) VALUES ('HE00003', 'IA1604');
-INSERT [Join](StudentID, GrID) VALUES ('HE00004', 'IA1604');
-INSERT [Join](StudentID, GrID) VALUES ('HE00005', 'IA1604');
-INSERT [Join](StudentID, GrID) VALUES ('HE00006', 'IA1604');
-INSERT [Join](StudentID, GrID) VALUES ('HE00007', 'IA1604');
-INSERT [Join](StudentID, GrID) VALUES ('HE00008', 'IA1604');
-INSERT [Join](StudentID, GrID) VALUES ('HE00009', 'IA1604');
-INSERT [Join](StudentID, GrID) VALUES ('HE00010', 'IA1604');
-INSERT [Join](StudentID, GrID) VALUES ('HE00011', 'IA1604');
-INSERT [Join](StudentID, GrID) VALUES ('HE00012', 'IA1604');
-INSERT [Join](StudentID, GrID) VALUES ('HE00013', 'IA1604');
-INSERT [Join](StudentID, GrID) VALUES ('HE00014', 'IA1604');
-INSERT [Join](StudentID, GrID) VALUES ('HE00015', 'IA1604');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00001', 'IA1604');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00002', 'IA1604');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00003', 'IA1604');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00004', 'IA1604');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00005', 'IA1604');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00006', 'IA1604');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00007', 'IA1604');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00008', 'IA1604');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00009', 'IA1604');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00010', 'IA1604');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00011', 'IA1604');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00012', 'IA1604');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00013', 'IA1604');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00014', 'IA1604');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00015', 'IA1604');
 
-INSERT [Join](StudentID, GrID) VALUES ('HE00016', 'AI1605');
-INSERT [Join](StudentID, GrID) VALUES ('HE00017', 'AI1605');
-INSERT [Join](StudentID, GrID) VALUES ('HE00018', 'AI1605');
-INSERT [Join](StudentID, GrID) VALUES ('HE00019', 'AI1605');
-INSERT [Join](StudentID, GrID) VALUES ('HE00020', 'AI1605');
-INSERT [Join](StudentID, GrID) VALUES ('HE00021', 'AI1605');
-INSERT [Join](StudentID, GrID) VALUES ('HE00022', 'AI1605');
-INSERT [Join](StudentID, GrID) VALUES ('HE00023', 'AI1605');
-INSERT [Join](StudentID, GrID) VALUES ('HE00024', 'AI1605');
-INSERT [Join](StudentID, GrID) VALUES ('HE00025', 'AI1605');
-INSERT [Join](StudentID, GrID) VALUES ('HE00026', 'AI1605');
-INSERT [Join](StudentID, GrID) VALUES ('HE00027', 'AI1605');
-INSERT [Join](StudentID, GrID) VALUES ('HE00028', 'AI1605');
-INSERT [Join](StudentID, GrID) VALUES ('HE00029', 'AI1605');
-INSERT [Join](StudentID, GrID) VALUES ('HE00030', 'AI1605');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00016', 'AI1605');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00017', 'AI1605');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00018', 'AI1605');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00019', 'AI1605');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00020', 'AI1605');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00021', 'AI1605');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00022', 'AI1605');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00023', 'AI1605');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00024', 'AI1605');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00025', 'AI1605');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00026', 'AI1605');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00027', 'AI1605');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00028', 'AI1605');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00029', 'AI1605');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00030', 'AI1605');
 
-INSERT [Join](StudentID, GrID) VALUES ('HE00031', 'SE1606');
-INSERT [Join](StudentID, GrID) VALUES ('HE00032', 'SE1606');
-INSERT [Join](StudentID, GrID) VALUES ('HE00033', 'SE1606');
-INSERT [Join](StudentID, GrID) VALUES ('HE00034', 'SE1606');
-INSERT [Join](StudentID, GrID) VALUES ('HE00035', 'SE1606');
-INSERT [Join](StudentID, GrID) VALUES ('HE00036', 'SE1606');
-INSERT [Join](StudentID, GrID) VALUES ('HE00037', 'SE1606');
-INSERT [Join](StudentID, GrID) VALUES ('HE00038', 'SE1606');
-INSERT [Join](StudentID, GrID) VALUES ('HE00039', 'SE1606');
-INSERT [Join](StudentID, GrID) VALUES ('HE00040', 'SE1606');
-INSERT [Join](StudentID, GrID) VALUES ('HE00041', 'SE1606');
-INSERT [Join](StudentID, GrID) VALUES ('HE00042', 'SE1606');
-INSERT [Join](StudentID, GrID) VALUES ('HE00043', 'SE1606');
-INSERT [Join](StudentID, GrID) VALUES ('HE00044', 'SE1606');
-INSERT [Join](StudentID, GrID) VALUES ('HE00045', 'SE1606');
-INSERT [Join](StudentID, GrID) VALUES ('HE00046', 'SE1606');
-INSERT [Join](StudentID, GrID) VALUES ('HE00047', 'SE1606');
-INSERT [Join](StudentID, GrID) VALUES ('HE00048', 'SE1606');
-INSERT [Join](StudentID, GrID) VALUES ('HE00049', 'SE1606');
-INSERT [Join](StudentID, GrID) VALUES ('HE00050', 'SE1606');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00031', 'SE1606');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00032', 'SE1606');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00033', 'SE1606');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00034', 'SE1606');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00035', 'SE1606');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00036', 'SE1606');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00037', 'SE1606');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00038', 'SE1606');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00039', 'SE1606');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00040', 'SE1606');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00041', 'SE1606');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00042', 'SE1606');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00043', 'SE1606');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00044', 'SE1606');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00045', 'SE1606');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00046', 'SE1606');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00047', 'SE1606');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00048', 'SE1606');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00049', 'SE1606');
+INSERT [JOINGroupsStudents](StudentID, GrID) VALUES ('HE00050', 'SE1606');
 
-SELECT * FROM [Join]
+SELECT * FROM [JOINGroupsStudents]
 
 
 SELECT * FROM Courses
@@ -2076,7 +2076,7 @@ DECLARE @DATE DATE;
 DECLARE Ins_View_Students_Classes_IA1608_Cursor CURSOR FOR 
 SELECT Students.StudentID, [AS].AssID, [End_Date]
 FROM 
-	(SELECT * FROM [Join] WHERE GrID = 'IA1604') AS IA1604
+	(SELECT * FROM [JOINGroupsStudents] WHERE GrID = 'IA1604') AS IA1604
 		INNER join Students ON Students.StudentID = IA1604.StudentID
 		INNER join Enroll ON Enroll.GrID = IA1604.GrID
 		INNER join Classes ON Classes.ClassID = Enroll.ClassID
@@ -2105,7 +2105,7 @@ DECLARE Ins_View_Students_Classes_Cursor CURSOR FOR
 SELECT J.StudentID, CA.ClassID, SUM(Score * [Weigh]) AS [Average]
 FROM 
 	(SELECT GrID FROM Groups WHERE GrID = 'IA1604') AS IA1604
-		INNER join [Join] AS J ON J.GrID = IA1604.GrID
+		INNER join [JOINGroupsStudents] AS J ON J.GrID = IA1604.GrID
 		INNER join Enroll ON Enroll.GrID = IA1604.GrID
 		INNER join 
 			(SELECT Classes.ClassID, Classes.AsgID, [AS].AssID, [AS].CouID, [AS].CatID, [AS].[Weigh] 
@@ -2122,11 +2122,11 @@ WHILE @@FETCH_STATUS = 0
 BEGIN 
 	IF @AVG >= 4.0
 		BEGIN
-			INSERT [View](StudentID, ClassID, Average, [Status]) VALUES (@STUDENTID, @CLID, @AVG, 'PASSED')
+			INSERT [ViewStudentsClasses](StudentID, ClassID, Average, [Status]) VALUES (@STUDENTID, @CLID, @AVG, 'PASSED')
 		END 
 	ELSE 
 		BEGIN	
-			INSERT [View](StudentID, ClassID, Average, [Status]) VALUES (@STUDENTID, @CLID, @AVG, 'NOT PASSED')
+			INSERT [ViewStudentsClasses](StudentID, ClassID, Average, [Status]) VALUES (@STUDENTID, @CLID, @AVG, 'NOT PASSED')
 		END
 	FETCH NEXT FROM Ins_View_Students_Classes_Cursor INTO @STUDENTID, @CLID, @AVG;
 END
